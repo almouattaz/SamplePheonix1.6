@@ -3,15 +3,14 @@
 Sample Pheonix 1.6 app with custom assets build tool.
 Font Awesome and TailWindCSS are included
 
-To start your Phoenix server:
-
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+After cloning the repo:
+* Go to the assets folder `cd assets/`
+* Install the following dependencies:
+`npm install --save-dev fs path chokidar esbuild esbuild-sass-plugin postcss autoprefixer tailwindcss @fortawesome/fontawesome-free ../deps/phoenix ../deps/phoenix_html ../deps/phoenix_live_view`
+* Go back to the main folder `cd ..`
+* Start the Phoenix server with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
 ## Learn more
 
