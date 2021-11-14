@@ -1,4 +1,6 @@
 # Hello
+Sample Pheonix 1.6 app with custom assets build tool.
+Font Awesome and TailWindCSS are included
 
 To start your Phoenix server:
 
